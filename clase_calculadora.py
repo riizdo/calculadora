@@ -1,5 +1,20 @@
 import pygame, sys
-from pygame.locals import * 
+from pygame.locals import *
+
+
+class pantalla():
+    
+    def __init__(self):
+        pass
+
+
+
+class boton():
+    
+    def __init__(self):
+        pass
+    
+
 
 class Calculadora():
     
@@ -24,6 +39,7 @@ class Calculadora():
     def fin(self):
         pygame.quit()
         sys.exit()
+        
         
         
 if __name__ == '__main__':
